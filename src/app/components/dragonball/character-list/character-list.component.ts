@@ -9,5 +9,6 @@ import { ICharacter } from '../../../interfaces/ICharacter';
 export class CharacterListComponent {
 
   characters = input.required<ICharacter[]>();
+  listName = input<string>();
 
 }
